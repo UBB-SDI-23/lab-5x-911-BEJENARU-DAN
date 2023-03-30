@@ -1,0 +1,308 @@
+Addresses
+[
+{
+"country": "USA",
+ "county": "Los Angeles",
+ "city": "Beverly Hills",
+ "street": "Rodeo Drive",
+ "streetNumber": 123
+},
+{
+"country": "France",
+"county": "Ile-de-France",
+"city": "Paris",
+"street": "Champs-Elysees",
+"streetNumber": 456
+},
+{
+ "country": "UK",
+ "county": "London",
+ "city": "London",
+ "street": "Baker Street",
+ "streetNumber": 221
+},
+{
+"country": "Germany",
+"county": "Berlin",
+"city": "Berlin",
+"street": "Unter den Linden",
+"streetNumber": 1
+},
+{
+"country": "USA",
+"county": "New York",
+"city": "New York",
+"street": "Fifth Avenue",
+"streetNumber": 777
+},
+{
+"country": "Japan",
+"county": "Tokyo",
+"city": "Tokyo",
+"street": "Harajuku",
+"streetNumber": 101
+},
+{
+"country": "Canada",
+"county": "Quebec",
+"city": "Quebec City",
+"street": "Grand Allee",
+"streetNumber": 1234
+},
+{
+"country": "Australia",
+"county": "Victoria",
+"city": "Melbourne",
+"street": "Collins Street",
+"streetNumber": 4321
+},
+{
+"country": "Brazil",
+"county": "Rio de Janeiro",
+"city": "Rio de Janeiro",
+"street": "Copacabana",
+"streetNumber": 5678
+},
+{
+"country": "India",
+"county": "Maharashtra",
+"city": "Mumbai",
+"street": "Marine Drive",
+"streetNumber": 910
+}
+]
+
+
+Publishers
+[
+{
+    "name": "Penguin Random House",
+    "foundingYear": "1935-07-01",
+    "email": "contact@penguinrandomhouse.com",
+    "address": 1,
+    "webAddress": "www.penguinrandomhouse.com"
+},
+{
+    "name": "HarperCollins",
+    "foundingYear": "1817-01-01",
+    "email": "contact@harpercollins.com",
+    "address": 2,
+    "webAddress": "www.harpercollins.com"
+},
+{
+    "name": "Simon & Schuster",
+    "foundingYear": "1924-01-01",
+    "email": "contact@simonandschuster.com",
+    "address": 3
+    "webAddress": "www.simonandschuster.com"
+},
+{
+"name": "HarperCollins",
+"foundingYear": "1917-01-01",
+"email": "info@harpercollins.com",
+"address": 4,
+"webAddress": "https://www.harpercollins.com/"
+},
+{
+"
+"name": "Houghton Mifflin Harcourt",
+"foundingYear": "1832-01-01",
+"email": "info@hmhco.com",
+"address": 5,
+"webAddress": "https://www.hmhbooks.com/"
+},
+{
+"name": "Penguin Random House",
+"foundingYear": "2013-01-01",
+"email": "info@penguinrandomhouse.com",
+"address": 6,
+"webAddress": "https://www.penguinrandomhouse.com/"
+},
+{
+"name": "Oxford University Press",
+"foundingYear": "1478-01-01",
+"email": "info@oup.com",
+"address": 7,
+"webAddress": "https://global.oup.com/"
+},
+{
+"name": "Bloomsbury Publishing",
+"foundingYear": "1986-01-01",
+"email": "info@bloomsbury.com",
+"address": 8,
+"webAddress": "https://www.bloomsbury.com/"
+},
+{
+"name": "Random House",
+"foundingYear": "1925-01-01",
+"email": "info@randomhouse.com",
+"address": 9,
+"webAddress": "https://www.randomhousebooks.com/"
+},
+{
+"name": "Simon & Schuster",
+"foundingYear": "1924-01-01",
+"email": "info@simonandschuster.com",
+"address": 11,
+"webAddress": "https://www.simonandschuster.com/"
+}
+
+Books
+[
+{
+"name": "To Kill a Mockingbird",
+"nrOfPages": 324,
+"publisherID": 1,
+"releaseYear": 1960,
+"genre": "Classic"
+},
+{
+"name": "1984",
+"nrOfPages": 328,
+"publisherID": 2,
+"releaseYear": 1949,
+ "genre": "Dystopian Fiction"
+},
+{
+"name": "The Great Gatsby",
+"nrOfPages": 180,
+"publisherID": 10,
+"releaseYear": 1925,
+"genre": "Classic"  }
+,
+{
+"name": "The Catcher in the Rye",
+"nrOfPages": 277,
+"publisherID": 3,
+"releaseYear": 1951,
+"genre": "Coming-of-Age Fiction"
+},
+{
+"name": "The Lord of the Rings",
+"nrOfPages": 347,
+"publisherID": 4,
+"releaseYear": 1954,
+"genre": "Fantasy"
+},
+{
+"name": "The Hobbit",
+"nrOfPages": 310,
+"publisherID": 4,
+"releaseYear": 1937,
+"genre": "Fantasy"
+},
+{
+"name": "Pride and Prejudice",
+"nrOfPages": 279,
+"publisherID": 5,
+"releaseYear": 1813,
+"genre": "Romance"
+},
+{
+"name": "Jane Eyre",
+"nrOfPages": 507,
+"publisherID": 5,
+"releaseYear": 1847,
+"genre": "Gothic Fiction"
+},
+{
+"name": "Wuthering Heights",
+"nrOfPages": 326,
+"publisherID": 5,
+"releaseYear": 1847,
+"genre": "Gothic Fiction"
+},
+{
+"name": "The Picture of Dorian Gray",
+"nrOfPages": 254,
+"publisherID": 6,
+"releaseYear": 1890,
+"genre": "Gothic Fiction"
+}
+]
+
+Author
+{
+  "firstName": "J.K.",
+  "lastName": "Rowling",
+  "dob": "1965-07-31",
+  "nationality": "British",
+  "areaOfInterest": "Fantasy"
+},
+{
+  "firstName": "J.R.R.",
+  "lastName": "Tolkien",
+  "dob": "1892-01-03",
+  "nationality": "British",
+  "areaOfInterest": "Fantasy"
+},
+{
+  "firstName": "George",
+  "lastName": "Orwell",
+  "dob": "1903-06-25",
+  "nationality": "British",
+  "areaOfInterest": "Fiction"
+},
+{
+  "firstName": "Jane",
+  "lastName": "Austen",
+  "dob": "1775-12-16",
+  "nationality": "British",
+  "areaOfInterest": "Romance"
+},
+{
+  "firstName": "Mark",
+  "lastName": "Twain",
+  "dob": "1835-11-30",
+  "nationality": "American",
+  "areaOfInterest": "Fiction"
+},
+{
+  "firstName": "Harper",
+  "lastName": "Lee",
+  "dob": "1926-04-28",
+  "nationality": "American",
+  "areaOfInterest": "Fiction"
+},
+{
+  "firstName": "Ernest",
+  "lastName": "Hemingway",
+  "dob": "1899-07-21",
+  "nationality": "American",
+  "areaOfInterest": "Fiction"
+},
+{
+  "firstName": "Gabriel",
+  "lastName": "García Márquez",
+  "dob": "1927-03-06",
+  "nationality": "Colombian",
+  "areaOfInterest": "Magical Realism"
+},
+{
+  "firstName": "Isabel",
+  "lastName": "Allende",
+  "dob": "1942-08-02",
+  "nationality": "Chilean",
+  "areaOfInterest": "Magical Realism"
+},
+{
+  "firstName": "Gustave",
+  "lastName": "Flaubert",
+  "dob": "1821-12-12",
+  "nationality": "French",
+  "areaOfInterest": "Realism"
+}
+
+AuthorBook
+{        "bookID": 1,        "authorID": 1,        "role": "primary",        "contributionTime": 12    },
+{        "bookID": 1,        "authorID": 2,        "role": "secondary",        "contributionTime": 6    },
+{        "bookID": 2,        "authorID": 3,        "role": "primary",        "contributionTime": 8    },
+{        "bookID": 2,        "authorID": 4,        "role": "secondary",        "contributionTime": 4    },
+{        "bookID": 3,        "authorID": 5,        "role": "primary",        "contributionTime": 10    },
+{        "bookID": 4,        "authorID": 6,        "role": "primary",        "contributionTime": 12    },
+{        "bookID": 5,        "authorID": 7,        "role": "primary",        "contributionTime": 8    },
+{        "bookID": 5,        "authorID": 8,        "role": "secondary",        "contributionTime": 4    },
+{        "bookID": 6,        "authorID": 1,        "role": "primary",        "contributionTime": 12    },
+{        "bookID": 6,        "authorID": 9,        "role": "secondary",        "contributionTime": 8    }]
+
+
