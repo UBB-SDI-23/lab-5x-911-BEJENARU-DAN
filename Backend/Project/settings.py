@@ -30,7 +30,8 @@ ALLOWED_HOSTS = ['*']
 
 # Application definition
 REST_FRAMEWORK = {
-    'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend']
+    'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend'],
+    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
 }
 
 INSTALLED_APPS = [
@@ -44,7 +45,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django_filters',
     'corsheaders',
-    'django_extensions'
+    'django_extensions',
+    'drf_spectacular',
 ]
 
 MIDDLEWARE = [

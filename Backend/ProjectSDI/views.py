@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from .models import Book, Author, Publisher, AuthorBook, Address
 from .serializers import BookSerializer, AuthorSerializer, PublisherSerializer, AuthorBookSerializer, AddressSerializer, PublisherNrBooksSerializer
-from .serializers import OneBookSerializer, OneAuthorSerializer, OnePublisherSerializer, OneAddressSerializer, OneAuthorBookSerializer, AuthorsSortedByNrBooksSerializer
+from .serializers import OneBookSerializer, OnePublisherSerializer, AuthorsSortedByNrBooksSerializer
 from rest_framework.response import Response
 from rest_framework import status
 from rest_framework.views import APIView
@@ -83,7 +83,7 @@ class BooksToPublisherView(generics.ListCreateAPIView):
     queryset = Publisher.objects.all()
     serializer_class = OnePublisherSerializer
 
-    def get_queryset(self):
+    def get_queryset(self, request, *args, **kwargs):
         return Publisher.objects.filter(pk=self.kwargs['pk'])
 
     def post(self, request, *args, **kwargs):

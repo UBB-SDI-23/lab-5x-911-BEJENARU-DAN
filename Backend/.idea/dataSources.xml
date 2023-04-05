@@ -15,5 +15,17 @@
       <jdbc-url>jdbc:sqlite:C:\Coding Apps\Info - University\Year 2\Sem2 2022-2023\Systems for Design and Implementation\Lab\Lab3\Project\db.sqlite3</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="db [3]" uuid="d952d797-c6d2-480b-ba57-a001bd9626ce">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Coding Apps\GitHub\GitHub\SDI\lab-5x-911-BEJENARU-DAN\Backend\db.sqlite3</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+      <libraries>
+        <library>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.40.1/sqlite-jdbc-3.40.1.jar</url>
+        </library>
+      </libraries>
+    </data-source>
   </component>
 </project>

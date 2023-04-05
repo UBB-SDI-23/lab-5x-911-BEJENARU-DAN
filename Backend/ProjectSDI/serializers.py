@@ -28,12 +28,6 @@ class AuthorSerializer(serializers.ModelSerializer):
         fields = ['id', 'firstName', 'lastName', 'dob', 'nationality', 'areaOfInterest']
 
 
-class OneAuthorSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Author
-        fields = ('__all__')
-        depth = 9
-
 
 class PublisherSerializer(serializers.ModelSerializer):
     class Meta:
@@ -55,24 +49,10 @@ class AuthorBookSerializer(serializers.ModelSerializer):
         fields = ['id', 'bookID', 'authorID', 'role', 'contributionTime']
 
 
-class OneAuthorBookSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = AuthorBook
-        fields = ('__all__')
-        depth = 9
-
-
 class AddressSerializer(serializers.ModelSerializer):
     class Meta:
         model = Address
         fields = ['id', 'country', 'county', 'city', 'street', 'streetNumber']
-
-
-class OneAddressSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Address
-        fields = ('__all__')
-        depth = 9
 
 
 class PublisherNrBooksSerializer(serializers.ModelSerializer):

@@ -14,8 +14,10 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 from ProjectSDI import views
+from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('Book/', views.BookList.as_view()), # path for the book list
@@ -30,7 +32,10 @@ urlpatterns = [
     path('AuthorBook/', views.AuthorBookList.as_view()),
     path('AuthorBook/<int:pk>/', views.AuthorBookDetails.as_view()),
     path('Publisher/PublisherCountbyBooks/', views.PublisherCountView.as_view()),
-    path('Author/AuthorSortedByNrBooks/', views.AuthorsSortedByNrBooksView.as_view())
+    path('Author/AuthorSortedByNrBooks/', views.AuthorsSortedByNrBooksView.as_view()),
+    path('swagger/schema/', SpectacularAPIView.as_view(), name = 'schema'),
+    path('swagger/schema/swagger-ui/',
+         SpectacularSwaggerView.as_view(url_name='schema'), name='swagger-ui'),
 ]
 
 
