@@ -1,1 +1,1 @@
-export const BACKEND_API_URL = "http://127.0.0.1:8000"
+export const BACKEND_API_URL = "http://ec2-34-227-158-227.compute-1.amazonaws.com"
