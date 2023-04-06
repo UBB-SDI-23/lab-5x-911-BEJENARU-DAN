@@ -1,1 +1,1 @@
-export const BACKEND_API_URL = ""
+export const BACKEND_API_URL = "http://3.86.251.57"
