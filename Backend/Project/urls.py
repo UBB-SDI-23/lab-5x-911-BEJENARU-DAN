@@ -20,21 +20,21 @@ from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('Book/', views.BookList.as_view()), # path for the book list
-    path('Book/<int:pk>/', views.BookDetails.as_view()), # path for the details of a certain book
-    path('Address/', views.AddressList.as_view()),
-    path('Address/<int:pk>/', views.AddressDetails.as_view()),
-    path('Publisher/', views.PublisherList.as_view()),
-    path('Publisher/<int:pk>/', views.PublisherDetails.as_view()),
-    path('Publisher/<int:pk>/Books/', views.BooksToPublisherView.as_view()),
-    path('Author/', views.AuthorList.as_view()),
-    path('Author/<int:pk>/', views.AuthorDetails.as_view()),
-    path('AuthorBook/', views.AuthorBookList.as_view()),
-    path('AuthorBook/<int:pk>/', views.AuthorBookDetails.as_view()),
-    path('Publisher/PublisherCountbyBooks/', views.PublisherCountView.as_view()),
-    path('Author/AuthorSortedByNrBooks/', views.AuthorsSortedByNrBooksView.as_view()),
-    path('swagger/schema/', SpectacularAPIView.as_view(), name = 'schema'),
-    path('swagger/schema/swagger-ui/',
+    path('api/Book/', views.BookList.as_view()), # path for the book list
+    path('api/Book/<int:pk>/', views.BookDetails.as_view()), # path for the details of a certain book
+    path('api/Address/', views.AddressList.as_view()),
+    path('api/Address/<int:pk>/', views.AddressDetails.as_view()),
+    path('api/Publisher/', views.PublisherList.as_view()),
+    path('api/Publisher/<int:pk>/', views.PublisherDetails.as_view()),
+    path('api/Publisher/<int:pk>/Books/', views.BooksToPublisherView.as_view()),
+    path('api/Author/', views.AuthorList.as_view()),
+    path('api/Author/<int:pk>/', views.AuthorDetails.as_view()),
+    path('api/AuthorBook/', views.AuthorBookList.as_view()),
+    path('api/AuthorBook/<int:pk>/', views.AuthorBookDetails.as_view()),
+    path('api/Publisher/PublisherCountbyBooks/', views.PublisherCountView.as_view()),
+    path('api/Author/AuthorSortedByNrBooks/', views.AuthorsSortedByNrBooksView.as_view()),
+    path('api/swagger/schema/', SpectacularAPIView.as_view(), name = 'schema'),
+    path('api/swagger/schema/swagger-ui/',
          SpectacularSwaggerView.as_view(url_name='schema'), name='swagger-ui'),
 ]
 
