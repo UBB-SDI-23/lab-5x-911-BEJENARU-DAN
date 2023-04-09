@@ -28,12 +28,12 @@ class PublisherCountViewTestcase(APITestCase):
 
 
     def test_url_exists(self):
-        response = self.client.get("/Publisher/PublisherCountbyBooks/")
+        response = self.client.get("api/Publisher/PublisherCountbyBooks/")
         self.assertEqual(response.status_code, 200)
 
 
     def test_publisher_by_nr_books(self):
-        response = self.client.get("/Publisher/PublisherCountbyBooks/")
+        response = self.client.get("api/Publisher/PublisherCountbyBooks/")
         self.assertEqual(len(response.data), 4)
         first = response.data[0]
         second = response.data[1]
@@ -96,12 +96,12 @@ class AuthorsSortedByNrBooksViewTestcase(APITestCase):
 
 
     def test_url_exists(self):
-        response = self.client.get("/Author/AuthorSortedByNrBooks/")
+        response = self.client.get("api/Author/AuthorSortedByNrBooks/")
         self.assertEqual(response.status_code, 200)
 
 
     def test_publisher_by_nr_books(self):
-        response = self.client.get("/Author/AuthorSortedByNrBooks/")
+        response = self.client.get("api/Author/AuthorSortedByNrBooks/")
         self.assertEqual(len(response.data), 6)
         first = response.data[0]
         second = response.data[1]
